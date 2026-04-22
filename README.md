@@ -3,7 +3,7 @@
 On-device PII redaction. A transformer model runs **entirely in your browser**
 via WebGPU — your text never leaves the tab.
 
-> **Heads up:** the model weights are ~2 GB. The first load downloads them
+> **Heads up:** the model weights are ~1 GB. The first load downloads them
 > once; after that they live in the browser cache and load instantly.
 
 ```
@@ -31,7 +31,7 @@ npm run dev
 ```
 
 Then open the printed localhost URL. First click on **Load model** triggers the
-one-time ~2 GB weight download (tracked with a per-file progress bar). After
+one-time ~1 GB weight download (tracked with a per-file progress bar). After
 that, weights come from the browser cache — zero network on subsequent visits.
 
 ## Stack

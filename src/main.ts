@@ -31,9 +31,9 @@ const downloadFiles = document.querySelector('#download-files') as HTMLUListElem
 
 const EXAMPLE = `Hi team,
 
-Please reach out to Dr. Sarah Chen at sarah.chen@medline.io or +1 (415) 555-0134 regarding the patient file. She's based at 2100 Market Street, San Francisco, CA 94114.
+Please reach out to Dr. Jane Doe at jane.doe@medline.io or +1 (111) 111-1111 regarding the patient file. She's based at 2100 Market Street, San Francisco, CA 94114.
 
-Backup contact: Marcus Alvarez, SSN 412-88-9031, DOB 1987-03-22.
+Backup contact: John Doe, SSN 222-22-2222, DOB 1994-03-22.
 
 — Jamie`;
 
