@@ -170,6 +170,25 @@ h1 .accent {
   color: var(--text);
 }
 
+.notice {
+  margin: 14px 0 0;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: var(--text-h);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 166, 77, 0.14) 0%,
+    rgba(255, 90, 95, 0.08) 100%
+  );
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent-warm);
+  border-radius: 8px;
+}
+
+.notice strong {
+  color: var(--text-h);
+}
+
 /* ---------- workspace ---------- */
 .workspace {
   display: grid;
@@ -319,6 +338,23 @@ button {
 
 .primary[data-mode='busy'] .icon-spin {
   animation: spin 0.9s linear infinite;
+}
+
+.primary .btn-sub {
+  display: none;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 7px;
+  margin-left: 4px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 999px;
+  letter-spacing: 0.04em;
+}
+
+.primary[data-mode='load'] .btn-sub {
+  display: inline-block;
 }
 
 @keyframes spin {
